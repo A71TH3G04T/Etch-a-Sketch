@@ -1,29 +1,24 @@
 #container {
-height: 300px;
-width: 300px;
-border: 1px solid black;
-display: flex;
-flex-wrap: wrap;
-
+  height: 300px;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 95vh;
-    background-color: grey;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 95vh;
+  background-color: #0d1117;
+  color: white;
 }
 
 #container div {
-    width: 50px;  
-    height: 50px;
-    background-color: grey;
-   
+  background-color: grey;
 }
 
 #container div:hover {
-    background-color: rgb(60, 186, 25);
+  background-color: darkgray;
 }
-
-
