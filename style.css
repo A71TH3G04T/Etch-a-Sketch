@@ -22,3 +22,25 @@ body {
 #container div:hover {
   background-color: darkgray;
 }
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 400px;
+}
+
+#clearGrid{
+  margin-top: 85px;
+  background-color:#4b4453;
+}
+#gridSize {
+    margin-top: 85px; 
+    background-color: #4e8397;
+}
+h1{
+  margin-bottom: 50px;
+  background-color: #4b4453;
+  color: #b0a8b9;
+}
